@@ -9,11 +9,12 @@ public class conditionalStatement{
         System.out.println("enter any number:");
          int x = input.nextInt();
 
-        if( x % 2 == 0){
+        if( x >0){
             System.out.println("given number is positive");
         }else{
             System.out.println("given number is not positive");
         }
+        input.close();
 
         
     }

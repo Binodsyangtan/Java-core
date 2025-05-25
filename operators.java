@@ -23,6 +23,6 @@ public class operators{
         System.out.println("remainder:" + remainder);
 
        
-
+        input.close();
     }
 }
