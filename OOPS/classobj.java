@@ -22,6 +22,17 @@ class Student{
         System.out.println(this.name);
         System.out.println(this.age);
     }
+    //non parameterize constructor if we didnot create constructor then java default create constructor non-parameterize 
+    // Student(){
+    //     System.out.println("constructor called");
+    // }
+
+    //parameterized constructor
+    Student(String studentName , int studentAge){
+        this.name = studentName;
+        this.age = studentAge;
+
+    }
 
 }
 
@@ -30,10 +41,9 @@ public class classobj {
 
     public static void main(String args[]){
         //student object 
-        Student s1 = new Student();
-        s1.name = "Binod syangtan";
-        s1.age = 22;
+        Student s1 = new Student("Binod",22);
         s1.printInfo();
+       
         
        
 
